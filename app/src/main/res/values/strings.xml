@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoolPool</string>
+    <string name="title_activity_display_message">Login In</string>
+</resources>

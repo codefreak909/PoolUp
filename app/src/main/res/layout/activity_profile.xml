@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Label"
+            android:text="First Name"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:id="@+id/firstName"
+            android:hint="First Name"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Last Name"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Last Name"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Age"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Age"
+            android:inputType="number"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Mobile No."/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Mobile No."
+            android:inputType="phone"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Email Id"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Home"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Home"
+            android:inputType="text"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Destination"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Destination"
+            android:inputType="text"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Time"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Time"
+            android:inputType="text"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Preferences"/>
+        
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Smoking"/>
+
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Eatables"/>
+
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC"/>
+
+        <CheckBox
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.poolup.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            style="@style/Label"
+            android:text="Email Id"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:id="@+id/emailId"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Password"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Confirm Password"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Mobile No."/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:id="@+id/mobile_no"
+            android:hint="Mobile No."
+            android:inputType="phone"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Policy Number"/>
+
+        <EditText
+            style="@style/FloatingLabel"
+            android:id="@+id/policy_no"
+            android:hint="Policy Number"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <Button
+        style="@style/buttons"
+        android:text="Register"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/register"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout2"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>

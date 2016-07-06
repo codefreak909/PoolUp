@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Label"
+            android:text="First Name"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="First_Name"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Last Name"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="Last_Name"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Time"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="Time"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="#9E9E9E"/>
+
+        <TextView
+            style="@style/Label"
+            android:text="Preferences"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="No Smoking"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="No Eatables"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="AC"/>
+
+        <TextView
+            style="@style/display_text"
+            android:text="Music"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="#9E9E9E"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Request"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>
